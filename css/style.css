@@ -192,19 +192,19 @@ header {
   border-radius: 50%;
   box-sizing: border-box;
 }
-.icon-closed {    
+.icon-closed {     
   width: 30px;
   height: 30px;
   fill: var(--color-black);   
   cursor: pointer;
   box-sizing: border-box;
+  padding-top: 3px;
+  padding-right: 2px;
 }
 .icon-closed:hover {
   fill: #03a9f4;
 }
-.icon-closed > svg {
-  margin-top: 7px;  
-}
+
 .modal {
   position: absolute;
   top: 50%;
