@@ -215,7 +215,7 @@ header {
   padding: 40px;
 }
 
-.modal-form > legend {
+.modal-form > h3 {
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
