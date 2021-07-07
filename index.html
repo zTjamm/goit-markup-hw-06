@@ -51,42 +51,35 @@
             <!-- модальное окно -->
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
-                    <button class="button-close" data-modal-close>
-                        <div class="icon-closed">
-                            <svg width="18px" height="18px">
+                    <button class="button-close" data-modal-close>                        
+                            <svg class="icon-closed" width="11px" height="11px">
                                 <use href="./images/icons.svg#icon-close"></use>
-                            </svg>
-                        </div>
+                            </svg>                        
                     </button>
                     <form class="modal-form">
-                        <legend>Оставьте свои данные, мы перезвоним</legend>
-                        <label for="name">Имя</label>
-                        <input class="form-input" type="name" name="name" />
+                        <h3>Оставьте свои данные, мы перезвоним</h3>
+                        <label>Имя</label>
+                        <input class="form-input" type="text" name="name" />
                         <svg class="modal-ico" width="18px" height="18px">
                             <use href="./images/icons.svg#icon-person"></use>
                         </svg>
-
-                        <label for="phone">Телефон</label>
-                            <input class="form-input" type="phone" name="phone" />
+                        <label>Телефон</label>
+                            <input class="form-input" type="tel" name="phone" />
                             <svg class="modal-ico" width="18px" height="18px">
                                 <use href="./images/icons.svg#icon-phone"></use>
                             </svg>                        
-                        <label for="email">Почта</label>
+                        <label>Почта</label>
                             <input class="form-input" type="email" name="email" />
                             <svg class="modal-ico" width="18px" height="18px">
                                 <use href="./images/icons.svg#icon-email"></use>
                             </svg>                               
-                        <label for="comment">Комментарий</label>
+                        <label>Комментарий</label>
                             <textarea name="feedback" rows="8" placeholder="Введите текст"></textarea>                       
                     <div class="modal-footer">                       
-                           <ul>                                 
-                                <li class="boxli">
-                                    <label class="lable">
-                                        <input class="checkbox" type="checkbox" name="topic" value="html" />
-                                        <span class="icon" ></span>2Соглашаюсь с рассылкой и принимаю <a href="#" class="contract-color">Условия договора</a>
-                                    </label>
-                                </li>
-                           </ul>                                          
+                        <label class="lable">
+                            <input class="checkbox" type="checkbox" name="topic" value="html" />
+                            <span class="icon"></span>Соглашаюсь с рассылкой и принимаю <a href="#" class="contract-color"> Условия договора</a>
+                        </label>
                         <button type="submit">Отправить</button>
                     </div>
                     </form>
@@ -358,19 +351,15 @@
                 </ul>
             </div>
             <div class="footer-three">
-                <p>подпишись на рассылку</p>
-                <ul>
-                    <li>
-                        <input type="email" name="email" placeholder="E-mail" />
-                    </li>
-                    <li>
-                        <button type="submit">Подписаться
-                            <svg width="24px" height="24px" class="footer-icon">
-                                <use href="./images/icons.svg#icon-send"></use>
-                            </svg>
-                        </button>
-                    </li>
-                </ul>
+                <p>подпишись на рассылку</p> 
+                <form class="footer-form">
+                    <input type="email" name="email" placeholder="E-mail" />                    
+                    <button type="submit">Подписаться
+                        <svg width="24px" height="24px" class="footer-icon">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>          
             </div>
         </div>
     </footer>
